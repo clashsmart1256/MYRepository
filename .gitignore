@@ -1,0 +1,5 @@
+.env
+*.session
+.upload_progress.json
+__pycache__/
+*.pyc
