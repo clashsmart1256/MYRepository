@@ -1,61 +1,4 @@
-# 📱 Telegram Direct Uploader
 
-> Android phone ko server bana kar Telegram channel me files upload karo — bina bot, bina third-party server ke!
-
----
-
-## ✨ Features
-
-| Feature | Description |
-|---------|-------------|
-| 🏠 Self-hosted | Phone hi server, koi external server nahi |
-| 🔐 No Bot | Direct Telegram account se upload |
-| 📁 Folder Upload | Ek folder ki sabhi files auto upload |
-| ⏸️ Resume Support | Network error par wait karke resume hoga |
-| 📦 2 GB Support | Bot API limit (50 MB) nahi, pure 2 GB |
-| 💾 Progress Save | Beech me roko, baad me wahi se continue |
-
----
-
-## 📥 Installation
-
-### Step 1: Termux Install
-
-- F-Droid se Termux download karo
-- Settings → Apps → Termux → Permissions → Storage ON karo
-
-### Step 2: Setup Commands
-
-```bash
-pkg update
-pkg upgrade -y
-pkg install python python-pip termux-api -y
-pip install telethon
-termux-setup-storage
-
-Ye multiline caamand me hi fas ja rha
-
-Theek hai, multiline command Termux me problem karta hai. Single line me ya step-by-step karte hain.
-
-***
-
-## Step 1: Pehle File Delete Karo
-
-```bash
-rm README.md
-```
-
-***
-
-## Step 2: Nano Editor Me Banao
-
-```bash
-nano README.md
-```
-
-Ab nano editor khulega. Usme yeh content paste karo:
-
-```
 # 📱 Telegram Direct Uploader
 
 > Android phone ko server bana kar Telegram channel me files upload karo — bina bot, bina third-party server ke!
@@ -198,27 +141,8 @@ Free to use, modify, share.
 
 ---
 
-<div align="center">
 
 **Made with ❤️ for self-hosted uploads**
 
-</div>
-```
-
 ***
 
-## Step 3: Save Karo
-
-Nano me:
-- **Ctrl + O** → Enter dabao (save)
-- **Ctrl + X** → Exit
-
-***
-
-## Step 4: Git Commit + Push
-
-```bash
-git add README.md
-git commit -m "Update README with full details"
-git push -u origin main
-```
